@@ -1,0 +1,21 @@
+<databaseChangeLog
+
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="create-gardeners-table" author="csi9aeme">
+        <sqlFile path="create-gardeners-table.sql"
+                 relativeToChangelogFile="true" />
+    </changeSet>
+    <changeSet id="create-world_record-table" author="csi9aeme">
+        <sqlFile path="create-gardenworks-table.sql"
+                 relativeToChangelogFile="true" />
+    </changeSet>
+
+
+</databaseChangeLog>
